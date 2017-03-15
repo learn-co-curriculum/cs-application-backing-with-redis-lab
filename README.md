@@ -102,7 +102,7 @@ You'll also find these files, which are part of our solution to previous labs.
 
 Also, in `javacs-lab10`, you'll find the Ant build file `build.xml`.
 
-The first step is to use Jedis to connect to your Redis server.  `RedisMaker.java` shows how to do this.  It reads information about your Redis server from a file, connects to it and logs in using your password, then returns a `Jedis` object you can use to perform Redis operations.
+The first step is to use Jedis to connect to your Redis server.  `JedisMaker.java` shows how to do this.  It reads information about your Redis server from a file, connects to it and logs in using your password, then returns a `Jedis` object you can use to perform Redis operations.
 
 If you open `JedisMaker.java`, you should see something like this (but with more error checking):
 
